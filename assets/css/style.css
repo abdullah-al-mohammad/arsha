@@ -7,9 +7,13 @@ main{
 
 
 /* header */
+#header{
+    transition: all 0.5;
+}
 #header .bg-body-tertiary {
     background-color: rgba(40, 58, 90, .9)!important;
     padding: 15px 0;
+    background: transparent;
 }
 #header .navbar-brand{
     color: aliceblue;
@@ -41,4 +45,28 @@ main{
     border: 2px solid #47b2e4;
     border-radius: 50px;
     padding: 8px 20px;
+}
+/* cover section */
+#hero{
+    background: #37517e;
+}
+#hero h4{
+    color: rgba(255, 255, 255, 0.6);
+}
+#hero .btn{
+    border-radius: 50px;
+    padding: 10px 28px 11px 28px;
+}
+#hero .btn-primary{
+    background: #47b2e4;
+    border: none;
+}
+#hero .btn-primary:hover{
+    background: #36a9df;
+}#hero a{
+    color: white;
+    text-decoration: none;
+}
+#hero svg:hover{
+    color: #47b2e4;
 }
