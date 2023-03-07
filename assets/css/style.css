@@ -70,3 +70,15 @@ main{
 #hero svg:hover{
     color: #47b2e4;
 }
+/* img animate */
+#hero .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down{
+    from{
+        transform: translatey(10px);
+    }
+    to{
+       transform: translatey(-10px);
+    }
+}
