@@ -82,3 +82,25 @@ main{
        transform: translatey(-10px);
     }
 }
+/* cliens section */
+.cliens{
+    padding: 12px 0;
+}
+.cliens-bg{
+    background-color: #f3f5fa;
+}
+#cliens img{
+    max-width: 45%;
+    filter: grayscale(100);
+    padding: 15px 0;
+}
+#cliens .client-1:hover img {
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+#cliens .client:hover img {
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
