@@ -292,6 +292,20 @@
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
+#portfolio h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: white;
+}
+#portfolio p{
+    font-size: 14px;
+    margin-bottom: 0;
+    color: white;
+}
+#portfolio a{
+    color: white;
+}
 #portfolio h3::before{
     content: '';
     position: absolute;
@@ -313,15 +327,17 @@
 #portfolio ul li{
     list-style: none;
 }
-/* #portfolio .portfolio-info{
+#portfolio .portfolio-info{
     opacity: 0;
     left: 15px;
-    bottom: -10px;
+    bottom: 0px;
     z-index: 3;
     right: 15px;
     transition: all 0.3s;
     background: rgba(55, 81, 126, 0.8);
     padding: 10px 15px;
+    position: absolute;
+    color: white;
 }
 #portfolio .portfolio-info:hover{
     opacity: 1;
@@ -332,8 +348,7 @@
     transition: all 0.3s;
     background: rgba(55, 81, 126, 0.8);
     padding: 10px 15px;
-    margin: 0 10px;
-} */
+}
 /* team */
 #team{
     background-color: #f3f5fa;
