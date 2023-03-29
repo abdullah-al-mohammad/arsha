@@ -341,13 +341,20 @@
 }
 #portfolio .portfolio-info:hover{
     opacity: 1;
-    left: 15px;
-    bottom: 0px;
-    z-index: 3;
-    right: 15px;
-    transition: all 0.3s;
-    background: rgba(55, 81, 126, 0.8);
-    padding: 10px 15px;
+}
+#portfolio .btn-outline-primary{
+    border: none;
+    border-radius: 50px;
+    padding: 5px 20px;
+    color: black;
+}
+#portfolio .btn-outline-primary:hover{
+    background-color: #47b2e4;
+    color: white;
+}
+#portfolio .is-checked{
+    background-color: #47b2e4;
+    color: white;
 }
 /* team */
 #team{
@@ -578,11 +585,21 @@
 .accordion-button:hover{
     color: #47b2e4;
 }
+.accordion-button{
+    font-family: "Poppins", sans-serif;
+    color: #4668a2;
+}
 .accordion-button:not(.collapsed) {
     background-color: transparent;
 }
 .accordion-button:focus {
     box-shadow: none;
+}
+.question-icon{
+    color: #47b2e4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
 }
 /* media screen */
 
