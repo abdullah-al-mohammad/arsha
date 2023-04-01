@@ -332,17 +332,17 @@ body{
 }
 #portfolio .portfolio-info{
     opacity: 0;
-    left: 15px;
+    left: 12px;
     bottom: 0px;
     z-index: 3;
-    right: 15px;
+    right: 12px;
     transition: all 0.3s;
     background: rgba(55, 81, 126, 0.8);
     padding: 10px 15px;
     position: absolute;
     color: white;
 }
-#portfolio .portfolio-info:hover{
+#portfolio .portfolio-card:hover .portfolio-info{
     opacity: 1;
 }
 #portfolio .btn-outline-primary{
@@ -358,6 +358,10 @@ body{
 #portfolio .is-checked{
     background-color: #47b2e4;
     color: white;
+}
+#portfolio .portfolio-card:hover img{
+    transform: scale(1.2);
+    transition: .6s;
 }
 /* team */
 #team{
@@ -686,10 +690,12 @@ body{
     color: #37517e;
 }
 #ourNewsletter .btn{
-    left: -30px;
     border: none;
     background: #47b2e4;
-    padding: 0 30px;
+    color: white;
+}
+#ourNewsletter .btn:hover{
+    background: #448bac;
 }
 /* footer */
 #footerTop{

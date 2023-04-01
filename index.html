@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arsha Bootstarp Template</title>
+    <!-- glightbox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
     <!-- font aowsome css -->
     <link rel="stylesheet" href="https://kit.fontawesome.com/8e2b1c2c7c.css" crossorigin="anonymous">
     <!-- aos animation css -->
@@ -325,8 +327,8 @@
                             <h4>App 1</h4>
                             <p>App</p>
                         </div>
-                        <div class="">
-                            <a href="./assets/images/portfolio/portfolio-1.jpg" title="App 1"><i class="fa-regular fa-plus"></i></a>
+                        <div class="gallarys">
+                            <a class="glightbox" href="./assets/images/portfolio/portfolio-1.jpg" title="App 1"><i class="fa-regular fa-plus"></i></a>
                             <a href=""><i class="fa-solid fa-link" title="More Details"></i></a>
                         </div>
                     </div>
@@ -845,11 +847,11 @@
                     <div class="col-lg-6">
                         <h4>Join Our Newsletter</h4>
                         <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control rounded-5 border-0 shadow" placeholder="" aria-label="Recipient's username" aria-describedby="button-addon2">
-                            <button class="btn btn-outline-secondary rounded-5 shadow z-3" type="button" id="button-addon2">Button</button>
+                        <form class="d-flex position-relative bg-white shadow rounded-5 p-1">
+                            <input class="form-control bg-transparent border-0 rounded-5" type="text">
+                            <input class="btn btn-outline-secondary rounded-5 position-absolute top-0 bottom-0 end-0 px-4" type="submit" value="Subscribe">
+                        </form>
                     </div>
-                      </div>
                 </div>
             </div>
         </section>
@@ -971,6 +973,11 @@
         });
         });
     </script>
+    <!-- glightbox -->
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+        const lightbox = GLightbox({ ...options });
+      </script>
     <!-- iconfy -->
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <!-- font aowsome js -->
