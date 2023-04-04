@@ -643,8 +643,9 @@ body{
     bottom: 0;
     left: calc(50% - 20px);
 }
-#contact .contact-info img{
+#contact .contact-info i{
     background: #e7f5fb;
+    color: #47b2e4;
     border-radius: 50px;
     font-size: 20px;
     width: 50px;
@@ -660,9 +661,9 @@ body{
     color: #6182ba;
     font-size: 14px;
 }
-#contact .contact-info img:hover{
+#contact .contact-info i:hover{
     background: #47b2e4;
-    fill: #fff;
+    color: #fff;
 }
 #contact .form-floating>label{
     top: -45px;
