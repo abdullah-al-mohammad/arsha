@@ -608,6 +608,11 @@ body{
     font-weight: 500;
     font-size: 20px;
 }
+#question .accordion-button:not(.collapsed){
+    color: transparent;
+    background-color: transparent;
+    box-shadow: none;
+}
 /* contact */
 #contact{
     padding: 60px 0;
@@ -776,11 +781,26 @@ body{
 #footer .design{
     font-size: 13px;
 }
+#footerTop .row{
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+}
 /* media screen */
 
 @media screen and (max-width: 992px) {
 
     #selectBtn .select{
        padding: 0 100px 60px 100px;
+    }
+}
+@media screen and (mIN-width: 375px) {
+
+    #selectBtn .select{
+       padding: 0 0 0 0;
+    }
+}
+@media screen and (min-width: 275px) {
+
+    #pricing .card{
+        width: 15px;
     }
 }
