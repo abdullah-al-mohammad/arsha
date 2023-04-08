@@ -222,7 +222,6 @@ body{
 #services .card{
     border-radius: 0%;
     border: none;
-    width: 18rem;
 }
 #services h4{
     color: #37517e;
@@ -610,10 +609,8 @@ body{
     font-weight: 500;
     font-size: 20px;
 }
-#question .accordion-button:not(.collapsed){
-    color: transparent;
-    background-color: transparent;
-    box-shadow: none;
+#questions .accordion-button:not(.collapsed){
+    box-shadow: none!important;
 }
 /* contact */
 #contact{
