@@ -643,26 +643,28 @@ body{
     left: calc(50% - 20px);
 }
 #contact .contact-info i{
-    background: #e7f5fb;
-    color: #47b2e4;
-    border-radius: 50px;
     font-size: 20px;
-    width: 50px;
-    height: 50px;
-    padding: 15px;
-}
-#contact h4{
-    color: #37517e;
-    font-size: 22px;
-    font-weight: 650;
-}
-#contact .contact-info p{
-    color: #6182ba;
-    font-size: 14px;
+    color: #47b2e4;
+    width: 44px;
+    height: 44px;
+    background: #e7f5fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
 }
 #contact .contact-info i:hover{
     background: #47b2e4;
     color: #fff;
+}
+#contact h4{
+    color: #37517e;
+    font-size: 20px;
+    font-weight: 600;
+}
+#contact .contact-info p{
+    color: #6182ba;
+    font-size: 14px;
 }
 #contact .form-floating>label{
     top: -45px;
@@ -680,6 +682,9 @@ body{
 #contact .card-border{
     border-top: 3px solid #47b2e4;
     border-bottom: 3px solid #47b2e4;
+}
+#contact .form-control{
+    line-height: 2rem;
 }
 /* Join Our Newsletter */
 #ourNewsletter{
