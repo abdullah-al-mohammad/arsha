@@ -180,6 +180,9 @@ body{
     font-weight: 500;
     padding: 20px;
 }
+#selectBtn .accordion-button:not(.collapsed){
+    box-shadow: none!important;
+}
 /* progressBar */
 #progressBar{
     padding: 60px 0;
