@@ -733,6 +733,9 @@ body{
     font-size: 10px;
     line-height: 1;
 }
+#footerTop ul{
+    padding-left: 0rem;
+}
 #footerTop h3{
     font-size: 28px;
     margin: 0 0 10px 0;
@@ -788,9 +791,6 @@ body{
 }
 #footer .design{
     font-size: 13px;
-}
-#footerTop .row{
-    padding-left: calc(var(--bs-gutter-x)/ 2);
 }
 /* media screen */
 
